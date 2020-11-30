@@ -1,11 +1,10 @@
 all: clean build
 
 clean:
-	rm -rf ./docs
+	rm -rf ./site
 
 build:
-	cd src; mkdocs build
-	mv ./src/site ./docs
+	mkdocs build
 
 install_dependence:
 	pip3 install mkdocs
