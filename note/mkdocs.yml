@@ -10,6 +10,7 @@ markdown_extensions:
     - admonition
     - attr_list
     - fontawesome_markdown
+    - pymdownx.tilde
 
 extra_css:
     - "https://fonts.googleapis.com/earlyaccess/notosansjp.css"
