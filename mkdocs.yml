@@ -1,12 +1,7 @@
 site_name: kato's note
 
-nav:
-- Home: 'index.md'
-
 theme:
     name: material
-    favicon: assets/favicon.ico
-    logo: assets/logo.jpg
     language: 'ja'
     features:
         - header.autohide
