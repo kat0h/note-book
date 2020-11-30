@@ -11,3 +11,6 @@ install_dependence:
 	pip3 install mkdocs
 	pip3 install mkdocs-material
 	pip3 install fontawesome_markdown
+
+serve:
+	cd note; mkdocs serve
