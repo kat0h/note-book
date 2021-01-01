@@ -14,7 +14,7 @@
     
     
       
-        <title>Test File - kato's note</title>
+        <title>FFplayの音声再生時に画面出力をしない - kato's note</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#test-file" class="md-skip">
+        <a href="#ffplay" class="md-skip">
           コンテンツにスキップ
         </a>
       
@@ -96,7 +96,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              Test File
+              FFplayの音声再生時に画面出力をしない
             
           </span>
         </div>
@@ -176,7 +176,7 @@
 
   <li class="md-nav__item">
     <a href="../.." class="md-nav__link">
-      Welcome to MkDocs
+      Welcome to Kato-k's blog(?)
     </a>
   </li>
 
@@ -196,29 +196,16 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
-      Note
+      FFmpeg
       <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Note" data-md-level="1">
+    <nav class="md-nav" aria-label="FFmpeg" data-md-level="1">
       <label class="md-nav__title" for="nav-2">
         <span class="md-nav__icon md-icon"></span>
-        Note
+        FFmpeg
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
-        
-          
-          
-          
-
-
-
-  <li class="md-nav__item">
-    <a href="../2020adc/" class="md-nav__link">
-      ADCの下書き
-    </a>
-  </li>
-
         
           
           
@@ -235,10 +222,122 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        FFplayの音声再生時に画面出力をしない
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
     <a href="./" class="md-nav__link md-nav__link--active">
-      Test File
+      FFplayの音声再生時に画面出力をしない
     </a>
     
+      
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    結論
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    解説
+  </a>
+  
+    <nav class="md-nav" aria-label="解説">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ffplay-nodisp" class="md-nav__link">
+    $ ffplay -nodisp
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ffplay-v-quiet" class="md-nav__link">
+    $ ffplay -v quiet
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    おまけ
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    参考文献
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+    
+    <label class="md-nav__link" for="nav-3">
+      Note
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Note" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Note
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../note/2020adc/" class="md-nav__link">
+      ADCの下書き
+    </a>
   </li>
 
         
@@ -265,6 +364,62 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    結論
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    解説
+  </a>
+  
+    <nav class="md-nav" aria-label="解説">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ffplay-nodisp" class="md-nav__link">
+    $ ffplay -nodisp
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ffplay-v-quiet" class="md-nav__link">
+    $ ffplay -v quiet
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    おまけ
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    参考文献
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -276,8 +431,23 @@
               
                 
                 
-                <h1 id="test-file">Test File</h1>
-<p>てすと</p>
+                <h1 id="ffplay">FFplayの音声再生時に画面出力をしない</h1>
+<h2 id="_1">結論</h2>
+<p><code>$ ffplay -nodisp</code>
+<code>$ ffplay -v quiet</code></p>
+<h2 id="_2">解説</h2>
+<h3 id="ffplay-nodisp"><code>$ ffplay -nodisp</code></h3>
+<p>その名の通りグラフィカルな画面表示を無効化する</p>
+<h3 id="ffplay-v-quiet"><code>$ ffplay -v quiet</code></h3>
+<p>-v は -loglevel の糖衣構文でログレベルを指定する。
+quietは全てのshellの出力をとめる。
+error くらいが丁度良い。</p>
+<h2 id="_3">おまけ</h2>
+<p>以下のコマンドでNHK第一をShellから聴ける</p>
+<p><code>ffplay -i 'https://nhkradioakr1-i.akamaihd.net/hls/live/511633/1-r1/1-r1-01.m3u8' -nodisp -v quiet&amp;</code></p>
+<h2 id="_4">参考文献</h2>
+<p><a href="https://ffmpeg.org/ffplay.html">https://ffmpeg.org/ffplay.html</a>
+<a href="https://gist.github.com/riocampos/93739197ab7c765d16004cd4164dca73">https://gist.github.com/riocampos/93739197ab7c765d16004cd4164dca73</a></p>
                 
               
               
@@ -296,7 +466,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../2020adc/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../.." class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -305,11 +475,25 @@
                 <span class="md-footer-nav__direction">
                   前
                 </span>
-                ADCの下書き
+                Welcome to Kato-k's blog(?)
               </div>
             </div>
           </a>
         
+        
+          <a href="../../note/2020adc/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  次
+                </span>
+                ADCの下書き
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
         
       </nav>
     </div>
